@@ -1,0 +1,13 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&display=swap');
+
+:root {
+    --gold: #D5966C;
+    --almost-black: #151515;
+    --dark-grey: #444444;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+}
