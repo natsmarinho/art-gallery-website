@@ -1,5 +1,5 @@
 @import url("./reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&family=Outfit:wght@300&display=swap');
 
 :root {
     --gold: #D5966C;
@@ -10,4 +10,50 @@
 
 body {
     font-family: 'Big Shoulders Display', cursive;
+}
+
+.cabecalho-images {
+    display: flex;
+    justify-content: center;
+    background-color: #E6E7E9;
+}
+
+.desktop-image {
+    display: none;
+}
+
+.cabecalho-content {
+    padding-left: 1rem;
+}
+
+.cabecalho-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.75rem;
+    padding-block: 2rem ;
+}
+
+.text {
+    font-size: 1.125rem;
+    font-family: Outfit;
+    line-height: 1.75rem;
+}
+
+.cabecalho-content p{
+    padding-bottom: 2rem
+}
+
+.location {
+    display: flex;
+}
+
+.btn-location {
+    background: var(--almost-black);
+    color: var(--white);
+    padding: 1.5rem;
+    width: 40%;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.22725rem;
 }
