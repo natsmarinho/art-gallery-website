@@ -112,3 +112,19 @@ body {
     line-height: 1.75rem;
     padding: 0 0 3rem 2rem;
 }
+
+.rodape {
+    background: var(--almost-black);
+    display: flex;
+    flex-direction: column;
+    gap: 2.38rem;
+    padding: 3rem 2rem;
+}
+
+.rodape-text {
+    color: var(--white);
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
