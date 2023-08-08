@@ -128,3 +128,29 @@ body {
     font-weight: 300;
     line-height: 1.75rem;
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        display: flex;
+    }
+
+    .desktop-image {
+        display: block;
+        width: 27.3125rem;
+        height: 43.75rem;
+    }
+
+    .mobile-image {
+        display: none;
+    }
+
+    .cabecalho-content {
+        position: absolute;
+        left: 48%;
+        top: 10%;
+    }
+
+    .cabecalho-content p {
+        padding-right: 2.5rem;
+    }
+}
