@@ -153,4 +153,22 @@ body {
     .cabecalho-content p {
         padding-right: 2.5rem;
     }
+
+    .first {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .first img{
+        width: 50%;
+    }
+
+    .first div {
+        width: 30%;
+    }
+
+    .events img {
+        align-self: auto;
+    }
 }
